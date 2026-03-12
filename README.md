@@ -1,8 +1,8 @@
 # Codeforces Solutions 🚀
 
-![Codeforces](https://img.shields.io/badge/Platform-Codeforces-orange)
-![Language](https://img.shields.io/badge/Language-C++-blue)
-![Problems](https://img.shields.io/badge/Problems-Solving-green)
+[![Codeforces](https://img.shields.io/badge/Platform-Codeforces-orange)](https://codeforces.com/)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)](https://en.cppreference.com/w/)
+[![Problems](https://img.shields.io/badge/Problems-Solving-green)](https://codeforces.com/problemset)
 
 ## 🚀 About
 
@@ -27,17 +27,51 @@ Problems are grouped based on contests or problem sets.
 
 Each solution is implemented in C++ and stored as a separate source file.
 
-```
 Codeforces-Solutions/
 │
 ├── Contests/
 │   ├── ContestID/
 │   │   ├── A.cpp
 │   │   ├── B.cpp
-│   │   └── C.cpp
+│   │   ├── C.cpp
+│   │   └── Editorial.md
 │
 ├── Problemset/
 │   ├── problem_name.cpp
+│   └── Editorial.md
 │
 └── README.md
+
+## 🧠 Topics Covered
+
+- Data Structures
+- Dynamic Programming
+- Graph Algorithms
+- Greedy Algorithms
+- Binary Search
+- Number Theory
+- Bit Manipulation
+
+## ⚙️ How to Run
+
+Follow these steps to compile and run the C++ solutions.
+
+### Requirements
+- A C++ compiler (such as **g++**)
+- Support for **C++17**
+
+### Steps
+
+1. **Copy** the source file (for example `file.cpp`).
+
+2. **Compile the program**
+
+```bash
+g++ -std=c++17 file.cpp -o solution
+```
+
+3. **Run the program**
+
+```bash
+./solution
 ```
