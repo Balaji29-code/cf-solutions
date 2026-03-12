@@ -26,7 +26,7 @@ The repository is organized to keep solutions clear and easy to navigate.
 Problems are grouped based on contests or problem sets.
 
 Each solution is implemented in C++ and stored as a separate source file.
-
+```
 Codeforces-Solutions/
 │
 ├── Contests/
@@ -41,6 +41,7 @@ Codeforces-Solutions/
 │   └── Editorial.md
 │
 └── README.md
+```
 
 ## 🧠 Topics Covered
 
