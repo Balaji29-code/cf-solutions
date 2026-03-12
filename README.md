@@ -15,8 +15,10 @@ The solutions reflect my thought process during contests and practice sessions.
 
 ## 🏆 Codeforces Profile
 
-[Visit my Codeforces Profile](https://codeforces.com/profile/Balaji_B)
+I am an active competitive programmer who enjoys solving algorithmic problems and participating in programming contests.  
+I regularly practice on Codeforces to improve my problem-solving skills, algorithmic thinking, and knowledge of data structures.
 
+🔗 [Visit my Codeforces Profile](https://codeforces.com/profile/Balaji_B)
 
 ## 📁 Repository Structure
 
@@ -25,6 +27,7 @@ Problems are grouped based on contests or problem sets.
 
 Each solution is implemented in C++ and stored as a separate source file.
 
+```
 Codeforces-Solutions/
 │
 ├── Contests/
@@ -37,3 +40,4 @@ Codeforces-Solutions/
 │   ├── problem_name.cpp
 │
 └── README.md
+```
