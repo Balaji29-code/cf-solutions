@@ -85,7 +85,7 @@ y = x ⊕ B
 
 ## 🤔 Why this rating 
 
-The constraints given in the problem are: 0 ≤ A, B ≤ 2^64 − 1
+The constraints given in the problem are: $0 ≤ A, B ≤ 2^64 − 1$
 So,
 This means values may reach the **maximum 64-bit range**.
 
