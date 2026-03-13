@@ -82,3 +82,19 @@ If this condition fails, the construction is impossible.
 Using the XOR property:
 
 y = x ⊕ B
+
+## 🤔 Why this rating 
+
+The constraints given in the problem are: 0 ≤ A, B ≤ 2^64 − 1
+So,
+This means values may reach the **maximum 64-bit range**.
+
+If we use a normal `long long`, operations involving the **most significant bit (MSB)** may overflow.
+
+Therefore we should use:
+
+```cpp
+unsigned long long
+```
+
+This safely supports values up to: 2^64 − 1
