@@ -10,7 +10,7 @@ However, there is a small catch involving bit overlap, which likely explains the
 
 We use the well-known identity:
 
-x + y = (x ⊕ y) + 2 · (x AND y)
+x + y = (x ⊕ y) + 2 · (x & y)
 
 Where:
 - ⊕ → XOR operation  
@@ -25,11 +25,11 @@ x ⊕ y = B
 
 ---
 
-## 🧮 Step 1: Compute (x AND y)
+## 🧮 Step 1: Compute (x & y)
 
 Substitute the identity:
 
-A = B + 2 · (x AND y)
+A = B + 2 · (x & y)
 
 So,
 
@@ -71,7 +71,7 @@ The AND result and XOR result cannot share common bits.
 
 So we must ensure:
 
-(x AND B) = 0
+(x & B) = 0
 
 If this condition fails, the construction is impossible.
 
