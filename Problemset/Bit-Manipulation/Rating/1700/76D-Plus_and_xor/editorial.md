@@ -85,7 +85,7 @@ y = x ⊕ B
 
 ## 🤔 Why this rating 
 
-The constraints given in the problem are: $0 ≤ A, B ≤ 2^64 − 1$
+The constraints given in the problem are: $0 ≤ A, B ≤ 2^{64} − 1$
 So,
 This means values may reach the **maximum 64-bit range**.
 
@@ -97,4 +97,4 @@ Therefore we should use:
 unsigned long long
 ```
 
-This safely supports values up to: 2^64 − 1
+This safely supports values up to: $2^{64} − 1$
