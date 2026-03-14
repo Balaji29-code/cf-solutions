@@ -42,14 +42,15 @@ Let the required sum be $v$.
 
 ### 1️⃣ Case 1: Same Parity
 
-If $(S - v) \bmod 2 = 0$, then the required sum has the **same parity** as the total array sum.
+If $(S - v) \bmod 2 = 0$, then the required sum $v$ has the **same parity** as the total array sum $S$.
 
-Since we can repeatedly reduce the sum by **2**, it is possible to construct any value:
-\[S,\, S-2,\, S-4,\, S-6,\, \dots\]
+Since we can repeatedly reduce the sum by **2** (either by removing a **2** or two **1s**), it is possible to construct any value in the sequence:
+$$S, S-2, S-4, S-6, \dots$$
 
-However, one more condition must hold:
+**Necessary Condition:**
+For a solution to exist in this case, the required sum must not exceed the total sum:
+$$v \le S$$
 
-\[v \le S\]
 
 because the **sum of any subarray cannot exceed the total array sum**.
 
