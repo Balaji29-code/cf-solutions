@@ -41,8 +41,22 @@ $$S, S-2, S-4, S-6, \dots$$
 Let the required sum be $v$.
 
 ### 1️⃣ Case 1: Same Parity
-If $(S - v) \bmod 2 = 0$, then it is always possible to construct such a subarray.
-**✅ Answer: YES**
+
+If $(S - v) \bmod 2 = 0$, then the required sum has the **same parity** as the total array sum.
+
+Since we can repeatedly reduce the sum by **2**, it is possible to construct any value:
+\[S,\, S-2,\, S-4,\, S-6,\, \dots\]
+
+However, one more condition must hold:
+
+\[v \le S\]
+
+because the **sum of any subarray cannot exceed the total array sum**.
+
+**Therefore:**
+
+- If $(S - v) \bmod 2 = 0$ **and** $v \le S$ → **✅ YES**
+- Otherwise → **❌ NO**
 
 ### 2️⃣ Case 2: Different Parity
 If the parity differs, we must remove exactly one **1** from the array to flip the parity. To maximize the remaining sum:
